@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Featured Speakers</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="./Slider.css">
+</head>
+<body>
+  <section class="container">
+    <div class="text-center">
+      <h1>View our Featured Speakers for the Event</h1>
+      <p>
+        Speakers are core contributors and industry thought leaders working at
+        <a href="#">companies</a> that push for innovation.
+      </p>
+    </div>
+
+    <div id="speakerDetail" class="detail-card">
+      <img id="detailImage" src="" alt="Speaker Image" />
+      <div>
+        <h2 id="detailName">John Doe</h2>
+        <p id="detailTitle">Chief Marketing Officer</p>
+        <p id="detailCompany">Specbee</p>
+        <div class="icons-container">
+          <i class="fa-brands fa-dribbble"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="vertical-divider"></div>
+      <p id="detailDescription">
+        Monotonectally synergize business communities rather than client-centric convergence.
+      </p>
+      <i class="fa-solid fa-times close-btn" id="closeDetail"></i>
+    </div>
+
+    <div class="carousel-container">
+      <div class="control-button">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div id="carousel" class="carousel"></div>
+      <div class="control-button">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+    <div class="btn-see">
+      <a href="#" class="program-button">See the Program</a>
+    </div>
+  </section>
+
+  <script src="Slider.js"></script>
+</body>
+</html>
+
